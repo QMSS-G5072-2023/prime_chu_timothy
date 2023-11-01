@@ -1,5 +1,6 @@
 import math
-    """
+
+"""
     Returns True if intiger is prime and False if intiger is not prime.
 
     Parameters
@@ -16,8 +17,9 @@ import math
     >>> from prime_tjc2188 import prime
     >>> n = 5
     >>> prime_tjc2188.prime(n)
-    True
-    """
+    True    
+"""
+
 def is_prime(n):
     if n <= 1:
         return False
@@ -25,7 +27,5 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-
-
 
 
