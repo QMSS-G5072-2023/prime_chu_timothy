@@ -1,0 +1,1 @@
+from prime_tjc2188 import prime_tjc2188
